@@ -54,14 +54,14 @@ class WaipahuVCViewController: UIViewController {
         let fifth = Place(title: "Waikele Community Park",
                           locationName: "Community Park",
                           discipline: "place",
-                          coordinate: CLLocationCoordinate2D(latitude: 21.328580, longitude: -157.870071))
+                          coordinate: CLLocationCoordinate2D(latitude: 21.401200, longitude: -158.003614))
         mapView.addAnnotation(fifth)
         
         //6th location
         let sixth = Place(title: "Pouhala Marsh Wildlife Sanctuary",
                           locationName: "Sanctuary",
                           discipline: "place",
-                          coordinate: CLLocationCoordinate2D(latitude: 21.336343, longitude: -157.868535))
+                          coordinate: CLLocationCoordinate2D(latitude: 21.374915, longitude: -157.868535))
         mapView.addAnnotation(sixth)
         
         //7th location
@@ -75,21 +75,21 @@ class WaipahuVCViewController: UIViewController {
         let eighth = Place(title: "Honouliuli National Historic Site",
                            locationName: "Historical Site",
                            discipline: "place",
-                           coordinate: CLLocationCoordinate2D(latitude: 21.331415, longitude: -157.875930))
+                           coordinate: CLLocationCoordinate2D(latitude: 21.391687, longitude: -158.059701))
         mapView.addAnnotation(eighth)
         
         //9th location
         let ninth = Place(title: "Kapapapuhi Point Park",
                           locationName: "Park",
                           discipline: "place",
-                          coordinate: CLLocationCoordinate2D(latitude: 21.326341, longitude: -157.878226))
+                          coordinate: CLLocationCoordinate2D(latitude: 21.366259, longitude: -158.020580))
         mapView.addAnnotation(ninth)
         
         //10th location
         let tenth = Place(title: "West Loch",
                           locationName: "Historic Place",
                           discipline: "place",
-                          coordinate: CLLocationCoordinate2D(latitude: 21.328448, longitude: -157.869297))
+                          coordinate: CLLocationCoordinate2D(latitude: 21.339686, longitude: -157.999918))
         mapView.addAnnotation(tenth)
         
         
