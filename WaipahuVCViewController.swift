@@ -52,42 +52,42 @@ class WaipahuVCViewController: UIViewController {
         
         //5th location
         let fifth = Place(title: "Waikele Community Park",
-                          locationName: "Car Dealer",
+                          locationName: "Community Park",
                           discipline: "place",
                           coordinate: CLLocationCoordinate2D(latitude: 21.328580, longitude: -157.870071))
         mapView.addAnnotation(fifth)
         
         //6th location
-        let sixth = Place(title: "Pouhala Marsh Wildlife Sancuary",
-                          locationName: "Shopping Center",
+        let sixth = Place(title: "Pouhala Marsh Wildlife Sanctuary",
+                          locationName: "Sanctuary",
                           discipline: "place",
                           coordinate: CLLocationCoordinate2D(latitude: 21.336343, longitude: -157.868535))
         mapView.addAnnotation(sixth)
         
         //7th location
-        let seventh = Place(title: "King David Kalākaua Middle School",
-                            locationName: "Middle School",
+        let seventh = Place(title: "Waipahu Soto Zen Temple Taiyoji",
+                            locationName: "Temple",
                             discipline: "place",
                             coordinate: CLLocationCoordinate2D(latitude: 21.328237, longitude: -157.875997))
         mapView.addAnnotation(seventh)
         
         //8th location
-        let eighth = Place(title: "Fire Station 06 Kalihi",
+        let eighth = Place(title: "Honouliuli National Historic Site",
                            locationName: "Fire Station",
                            discipline: "place",
                            coordinate: CLLocationCoordinate2D(latitude: 21.331415, longitude: -157.875930))
         mapView.addAnnotation(eighth)
         
         //9th location
-        let ninth = Place(title: "Kalihi Kai Elementary School",
-                          locationName: "Elementary School",
+        let ninth = Place(title: "Kapapapuhi Point Park",
+                          locationName: "Park",
                           discipline: "place",
                           coordinate: CLLocationCoordinate2D(latitude: 21.326341, longitude: -157.878226))
         mapView.addAnnotation(ninth)
         
         //10th location
-        let tenth = Place(title: "Hawaii Kotohira Jinsha - Hawaii Dazaifu Tenmangu",
-                          locationName: "Tempal",
+        let tenth = Place(title: "West Loch",
+                          locationName: "Historic Place",
                           discipline: "place",
                           coordinate: CLLocationCoordinate2D(latitude: 21.328448, longitude: -157.869297))
         mapView.addAnnotation(tenth)
