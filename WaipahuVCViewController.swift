@@ -73,7 +73,7 @@ class WaipahuVCViewController: UIViewController {
         
         //8th location
         let eighth = Place(title: "Honouliuli National Historic Site",
-                           locationName: "Fire Station",
+                           locationName: "Historical Site",
                            discipline: "place",
                            coordinate: CLLocationCoordinate2D(latitude: 21.331415, longitude: -157.875930))
         mapView.addAnnotation(eighth)
